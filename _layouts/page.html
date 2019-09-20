@@ -1,22 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ site.title }}</title>
-  <link rel="stylesheet" href="../css/normalize.css">
-  <link rel="stylesheet" href="../css/solo.css">
-</head>
-<body>
+---
+layout: default
+---
 
-  <article>
-   <div class="container">
-    <h3>{{ page.title }}</h3>
+<div class='o-wrapper'>
 
-    {{ content }}
-     </div>
-   </article>
+  <div class='o-grid'>
+    <div class='o-grid__col'>
+      <article class='c-post'>
+        <h1 class='c-post__title u-text-center'>{{ page.title }}</h1>
 
-</body>
-</html>
+        <div class='c-content'>
+          {% include page-image.html %}
+
+          {{ content }}
+        </div>
+      </article>
+    </div>
+  </div>
+
+</div>
