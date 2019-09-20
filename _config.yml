@@ -3,7 +3,7 @@ title: it's a blog
 tag_text: Good Clean Read
 description: false
 url: "https://blog.thiagojorge.com"
-baseurl: ""
+baseurl: "https://blog.thiagojorge.com"
 
 font-awesome-include: true # make this false if you don't need font-awesome
 
