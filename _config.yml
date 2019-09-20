@@ -10,7 +10,7 @@ title:       blog do thiago
 email:       ''
 description: ''
 baseurl:     'https://blog.thiagojorge.com/' # The subpath of your site, e.g. /blog
-url:         'https://blog.thiagojorge.com/' # The base hostname & protocol for your site
+url:         '' # The base hostname & protocol for your site
 twitter:     ''
 github:      ''
 instagram:   'thiagojorge'
